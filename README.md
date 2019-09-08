@@ -1,2 +1,2 @@
 # gogirl
-A girl can code
+A girl can code project
