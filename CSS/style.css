@@ -1,0 +1,171 @@
+body{
+    background-color:azure;
+    
+}
+.head{
+    background-color:black;
+    height: auto;
+    
+    
+}
+.head-buttons{
+    padding: 40px;
+}
+.head-buttons font{
+    color:white;
+    font-family:chiller;
+    font-size:70px;
+    
+}
+/* Styles For The Head Buttons */
+.head-buttons button{
+    width:30%;
+    height: 50px;
+    border-radius:20px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top:20px;
+}
+.head-buttons button:hover{
+    transition: 300ms;
+    width:34%;
+}
+.head-buttons #meetken{
+    background-color:yellow;
+    border:white 2px solid;
+}
+.head-buttons #getst{
+    color:white;
+    background-color:black;
+    border:white 2px solid;
+}
+/* Navigation Styles */
+.head-nav{
+    margin-top:20px;
+    float:right;
+
+}
+/* Links Styles */
+a{
+    text-decoration:none;
+    font-family:cursive;
+    color:yellow;
+    padding:15px;
+    border-radius:20px;
+    font-size:30px;
+}
+a:active{
+    color:white;
+}
+nav .active{
+    text-decoration: underline wavy;
+    color:yellow;
+}
+a:hover{
+    transition: 900ms;
+    text-decoration: underline wavy;
+    background-color:yellow;
+    color:black;
+}
+/* Container For Images */
+.container{
+    border-top:2px whitesmoke solid;
+    width:100%;
+    height:auto;
+    background-color:yellow;
+}
+
+.container img{
+    width:200px;
+
+}
+.container img:hover{
+    transition: 500ms;
+    width: 300px;
+    opacity: 0.8;
+    transform: rotate(360deg);
+}
+.amb-head{
+    font-family: chiller;
+    font-size: 60px;
+    text-align:center;
+}
+.amb1 img{
+    margin-left:200px;
+}
+/* About Section */
+.about-sec{
+    border-top:white 2px solid;
+    background-color:black;
+    height: 500px;
+    margin-top:-60px;
+}
+.about-head{
+    font-family: chiller;
+    font-size: 60px;
+    text-align:center;
+    color:white;
+    padding-top: 50px;
+}
+/* Contact Section Styles */
+.contact{
+    text-align:center;
+    padding: 30px;
+    /* background-color: yellow; */
+}
+/* Contact Top-Legend */
+.form .form-legend{
+    font-size:50px;
+    font-family:monospace;
+}
+.form label{
+    font-size:25px;
+    font-family: monospace;
+}
+.form input[type=text],[type=number],[type=email]{
+    width:250px;
+    height:25px;
+    margin-top:15px;
+    border:2px black solid;
+    padding:5px;
+    font-family: cursive;
+}
+.form textarea{
+    font-family: cursive;
+    width:300px;
+    border:2px black solid;
+}
+.form input[type=submit]{
+    width:120px;
+    height: 50px;
+    border-radius:20px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    color:white;
+    background-color:black;
+    border:white 2px solid;
+}
+/* Footer Styles */
+.footer{
+    height:250px;
+    background-color:black;
+    color:white;
+}
+.copyright{
+    font-size:20px;
+    padding: 50px;
+    
+}
+.copyright kbd{
+    background-color:yellow;
+    color:black;
+    border-radius: 5px;
+}
+.social{
+    float: right;
+}
+.go_girl{
+    text-align:center;
+}
